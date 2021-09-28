@@ -1,0 +1,13 @@
+.header-nav
+{
+    font-size: 15px;
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.header-nav__li
+{
+    font-size: 15px;
+    list-style: none;
+}
