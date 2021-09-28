@@ -1,13 +1,33 @@
-.header-nav
+*
 {
-    font-size: 15px;
-    list-style: none;
-    margin-top: 10px;
-    padding-left: 0px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.header-nav__li
+.header-nav {
+  font-size: 15px;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+  background-color: blue;
+}
+
+.header-nav__li {
+  display: inline-block;
+  font-size: 15px;
+  list-style: none;
+  padding: 5px 5px 5px 5px;
+  
+}
+.header-nav__li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-nav__li a:hover
 {
-    font-size: 15px;
-    list-style: none;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
 }
